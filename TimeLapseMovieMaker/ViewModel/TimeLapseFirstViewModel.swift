@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Photos
 
 class TimeLapseFirstViewModel: NSObject, ObservableObject {
     @Published var importFileList: [URL] = []
@@ -27,6 +28,10 @@ class TimeLapseFirstViewModel: NSObject, ObservableObject {
             isProgress = true
             do {
                 try await movieMaker.makeMovieFromImages(imagePaths: importFileList, moviePath: moviePath)
+                
+                try await PHPhotoLibrary.shared().performChanges {
+                    _ = PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: moviePath)
+                }
             } catch {
                 print("\(#fileID) \(#function) \(#line) failed \(error.localizedDescription)")
             }
