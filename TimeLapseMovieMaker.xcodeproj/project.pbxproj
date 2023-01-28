@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFD6E4E2984AB7F0002900C /* TimeLapseMovieMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E4D2984AB7F0002900C /* TimeLapseMovieMakerApp.swift */; };
+		9DFD6E502984AB7F0002900C /* TimeLapseFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E4F2984AB7F0002900C /* TimeLapseFirstView.swift */; };
+		9DFD6E522984AB880002900C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD6E512984AB880002900C /* Assets.xcassets */; };
+		9DFD6E552984AB880002900C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD6E542984AB880002900C /* Preview Assets.xcassets */; };
+		9DFD6E5F2984ABB90002900C /* MovieMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E5E2984ABB90002900C /* MovieMaker.swift */; };
+		9DFD6E622984B10E0002900C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E612984B10E0002900C /* UIImageExtension.swift */; };
+		9DFD6E642984BB3C0002900C /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E632984BB3C0002900C /* FileModel.swift */; };
+		9DFD6E662984BBB10002900C /* TimeLapseFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD6E652984BBB10002900C /* TimeLapseFirstViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DFD6E4A2984AB7F0002900C /* TimeLapseMovieMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLapseMovieMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFD6E4D2984AB7F0002900C /* TimeLapseMovieMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLapseMovieMakerApp.swift; sourceTree = "<group>"; };
+		9DFD6E4F2984AB7F0002900C /* TimeLapseFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLapseFirstView.swift; sourceTree = "<group>"; };
+		9DFD6E512984AB880002900C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFD6E542984AB880002900C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DFD6E5E2984ABB90002900C /* MovieMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMaker.swift; sourceTree = "<group>"; };
+		9DFD6E612984B10E0002900C /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9DFD6E632984BB3C0002900C /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
+		9DFD6E652984BBB10002900C /* TimeLapseFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLapseFirstViewModel.swift; sourceTree = "<group>"; };
+		9DFD6E672984BCFC0002900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFD6E472984AB7F0002900C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFD6E412984AB7F0002900C = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E4C2984AB7F0002900C /* TimeLapseMovieMaker */,
+				9DFD6E4B2984AB7F0002900C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFD6E4B2984AB7F0002900C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E4A2984AB7F0002900C /* TimeLapseMovieMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFD6E4C2984AB7F0002900C /* TimeLapseMovieMaker */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E672984BCFC0002900C /* Info.plist */,
+				9DFD6E602984B0F80002900C /* Extension */,
+				9DFD6E5D2984ABB00002900C /* Model */,
+				9DFD6E5C2984ABAB0002900C /* ViewModel */,
+				9DFD6E5B2984ABA70002900C /* View */,
+				9DFD6E4D2984AB7F0002900C /* TimeLapseMovieMakerApp.swift */,
+				9DFD6E512984AB880002900C /* Assets.xcassets */,
+				9DFD6E532984AB880002900C /* Preview Content */,
+			);
+			path = TimeLapseMovieMaker;
+			sourceTree = "<group>";
+		};
+		9DFD6E532984AB880002900C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E542984AB880002900C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DFD6E5B2984ABA70002900C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E4F2984AB7F0002900C /* TimeLapseFirstView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DFD6E5C2984ABAB0002900C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E652984BBB10002900C /* TimeLapseFirstViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DFD6E5D2984ABB00002900C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E5E2984ABB90002900C /* MovieMaker.swift */,
+				9DFD6E632984BB3C0002900C /* FileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DFD6E602984B0F80002900C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD6E612984B10E0002900C /* UIImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFD6E492984AB7F0002900C /* TimeLapseMovieMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFD6E582984AB880002900C /* Build configuration list for PBXNativeTarget "TimeLapseMovieMaker" */;
+			buildPhases = (
+				9DFD6E462984AB7F0002900C /* Sources */,
+				9DFD6E472984AB7F0002900C /* Frameworks */,
+				9DFD6E482984AB7F0002900C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLapseMovieMaker;
+			productName = TimeLapseMovieMaker;
+			productReference = 9DFD6E4A2984AB7F0002900C /* TimeLapseMovieMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFD6E422984AB7F0002900C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9DFD6E492984AB7F0002900C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9DFD6E452984AB7F0002900C /* Build configuration list for PBXProject "TimeLapseMovieMaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFD6E412984AB7F0002900C;
+			productRefGroup = 9DFD6E4B2984AB7F0002900C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFD6E492984AB7F0002900C /* TimeLapseMovieMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFD6E482984AB7F0002900C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD6E552984AB880002900C /* Preview Assets.xcassets in Resources */,
+				9DFD6E522984AB880002900C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFD6E462984AB7F0002900C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD6E5F2984ABB90002900C /* MovieMaker.swift in Sources */,
+				9DFD6E502984AB7F0002900C /* TimeLapseFirstView.swift in Sources */,
+				9DFD6E662984BBB10002900C /* TimeLapseFirstViewModel.swift in Sources */,
+				9DFD6E642984BB3C0002900C /* FileModel.swift in Sources */,
+				9DFD6E4E2984AB7F0002900C /* TimeLapseMovieMakerApp.swift in Sources */,
+				9DFD6E622984B10E0002900C /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DFD6E562984AB880002900C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DFD6E572984AB880002900C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFD6E592984AB880002900C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeLapseMovieMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BJR2WYNRK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLapseMovieMaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FromF.com.github.TimeLapseMovieMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFD6E5A2984AB880002900C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeLapseMovieMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BJR2WYNRK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeLapseMovieMaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FromF.com.github.TimeLapseMovieMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFD6E452984AB7F0002900C /* Build configuration list for PBXProject "TimeLapseMovieMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFD6E562984AB880002900C /* Debug */,
+				9DFD6E572984AB880002900C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFD6E582984AB880002900C /* Build configuration list for PBXNativeTarget "TimeLapseMovieMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFD6E592984AB880002900C /* Debug */,
+				9DFD6E5A2984AB880002900C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFD6E422984AB7F0002900C /* Project object */;
+}

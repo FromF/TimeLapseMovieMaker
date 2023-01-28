@@ -1,2 +1,4 @@
 # TimeLapseMovieMaker
 タイムラプス動画を作成するサンプルアプリ
+
+アプリ実行後、Finder＞iPhone本体＞ファイル＞実行中アプリを開きそこにJPG、PNGの拡張子の画像をドラッグ＆ドロップした後、リストを下に引っ張って更新後、Make TimeLapse MovieボタンをタップするとJPG、PNGの拡張子の画像をタイムラプス動画となります。
